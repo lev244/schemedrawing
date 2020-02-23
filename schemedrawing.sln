@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schemedrawing", "schemedrawing\schemedrawing.csproj", "{7EF68B9B-C485-48D1-B187-390B5B08D05F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EF68B9B-C485-48D1-B187-390B5B08D05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF68B9B-C485-48D1-B187-390B5B08D05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF68B9B-C485-48D1-B187-390B5B08D05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF68B9B-C485-48D1-B187-390B5B08D05F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E3DC88D-C7B4-451C-9937-C875D93C7C32}
+	EndGlobalSection
+EndGlobal
