@@ -9,17 +9,17 @@ namespace schemedrawing
     
     class C
     {
-        public  int n = 50;
+        public  int n = 10;
         public double[] StepX(double radius1,double radius2)
         {
 
             double[] x = new double[n];
             double step = (radius2 - radius1) / (double) n;
 
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i <n; i++)
             {
                 x[i] = i * step;
-                
+               
             }
 
 
@@ -29,11 +29,12 @@ namespace schemedrawing
         public double[] Theta()
         {
             double[] theta = new double[n];
-            double step = (double)90/ (double)(n);
+            double step = (double)90 / (double)(n);
 
             for (int i = 0; i < n; i++)
             {
-                theta[i] =(i)*step;
+                theta[i] = i * step;
+               
             }
 
 

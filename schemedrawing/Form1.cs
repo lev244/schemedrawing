@@ -14,8 +14,9 @@ namespace schemedrawing
     public partial class Form1 : Form
     {
         C obj = new C();
-        public double radius1=200;
-        public double radius2=400;
+        godunov ob = new godunov();
+        public double radius1=150;
+        public double radius2=300;
         
         //public int n = 100;
         public Form1()
@@ -35,11 +36,11 @@ namespace schemedrawing
             Graphics g = e.Graphics;
             SolidBrush b = new SolidBrush(Color.Red);
             var center = new Point(panel1.Width / 2, panel1.Height / 2);
-            var p1 = new Pen(Color.Black, 2);
+            var p1 = new Pen(Color.Black, 5);
             var p2 = new Pen(Color.Blue, 2);
             var p3 = new Pen(Color.Red, 1);
 
-          
+            ob.main();
 
           //  x[0] = center.X - (float)obj.X(radius1, radius2)[0];
            // y[0] = center.Y - (float)radius2;
@@ -61,6 +62,12 @@ namespace schemedrawing
             }
            // Console.WriteLine("center:{0}-{1}, x:{2} -{3}", center.X, center.Y, centerX, centerY);
 
+        }
+
+        private void графикToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Graphs gform = new Graphs();
+            gform.Show();
         }
     }
 }
