@@ -114,7 +114,7 @@ namespace schemedrawing
            // chart3.Series[1].Points.AddXY(0.8, 0.20);
             chart3.Series[1].Points.AddXY(0.9, 0.2);
             chart3.Series[1].Points.AddXY(1.5, 0.05);
-
+            chart3.Series[1].Points.AddXY(1.544, 0.0467);
             chart3.Series[1].Points.AddXY(2, 0.01);
 
 
